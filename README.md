@@ -10,7 +10,7 @@ Part of a 9-project portfolio built in 8 weeks. 5 ADRs, 532 tests, 9 analysis ch
 **Live Dashboard:** Deploying in Week 8 of the portfolio sprint. Link will be added here.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rubsj/ai-portfolio/main/04-resume-coach/docs/screenshots/analysis_dashboard.png" alt="Streamlit Dashboard" width="800"/>
+  <img src="https://raw.githubusercontent.com/rubsj/ai-resume-coach/main/docs/screenshots/analysis_dashboard.png" alt="Streamlit Dashboard" width="800"/>
 </p>
 
 ## Results
@@ -33,19 +33,19 @@ Sample pipeline output: [`results/pipeline_summary.json`](results/pipeline_summa
 Skill overlap (Jaccard similarity) forms a clean gradient across fit levels: excellent=0.669 down to mismatch=0.005. This confirms Jaccard is the dominant signal for resume quality.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rubsj/ai-portfolio/main/04-resume-coach/results/charts/skills_overlap_distribution.png" alt="Skills Overlap Distribution by Fit Level" width="700"/>
+  <img src="https://raw.githubusercontent.com/rubsj/ai-resume-coach/main/results/charts/skills_overlap_distribution.png" alt="Skills Overlap Distribution by Fit Level" width="700"/>
 </p>
 
 `casual` at 34% failure versus `career_changer` at 100%.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rubsj/ai-portfolio/main/04-resume-coach/results/charts/failure_by_template.png" alt="Failure Rates by Writing Template" width="700"/>
+  <img src="https://raw.githubusercontent.com/rubsj/ai-resume-coach/main/results/charts/failure_by_template.png" alt="Failure Rates by Writing Template" width="700"/>
 </p>
 
 The GPT-4o judge and the deterministic labeler agree closely enough that the labeler works as a low-cost proxy during development.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/rubsj/ai-portfolio/main/04-resume-coach/results/charts/judge_vs_rules_agreement.png" alt="GPT-4o Judge vs Rule-Based Labeler Agreement" width="700"/>
+  <img src="https://raw.githubusercontent.com/rubsj/ai-resume-coach/main/results/charts/judge_vs_rules_agreement.png" alt="GPT-4o Judge vs Rule-Based Labeler Agreement" width="700"/>
 </p>
 
 ### What the numbers mean
