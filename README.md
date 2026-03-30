@@ -59,7 +59,7 @@ The GPT-4o judge and the deterministic labeler agree closely enough that the lab
 ## Architecture
 
 ```mermaid
-graph LR
+graph TD
     A[run_generation.py<br/>50 jobs × 5 fit levels<br/>= 250 resumes] --> B[run_labeling.py<br/>5 failure mode flags<br/>Jaccard similarity]
     B --> C[judge.py<br/>GPT-4o evaluation<br/>quality score 0–1]
     C --> D[corrector.py<br/>Instructor retry loop<br/>8/8 corrected]
