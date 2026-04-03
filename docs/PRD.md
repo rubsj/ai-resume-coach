@@ -1,13 +1,13 @@
 # PRD: P4 — AI-Powered Resume Coach: Synthetic Data Pipeline
 
-> **This is the implementation contract.** Claude Code: read this + both CLAUDE.md files before starting.
+> **This is the implementation contract.** Claude Code: read this + both ../CLAUDE.md files before starting.
 > Do NOT re-debate architecture decisions. They are final. If something is ambiguous, ask the user.
 
 **Project:** P4 — AI-Powered Resume Coach: Synthetic Data Pipeline
 **Timeline:** Feb 24–26, 2026 (Mon–Wed, 3 sessions, no hard time cap)
 **Owner:** Developer (Java/TS background, completed P1 + P2 + P3)
 **Source of Truth:** [Notion Requirements](https://www.notion.so/Mini_Project_4_requirements-2ffdb630640a81ac8eb7d35a8772a8e4)
-**Concepts Primer:** `p4-concepts-primer.html` in project root — read for Jaccard similarity, skill normalization, FastAPI, correction loops, and correlation analysis theory
+**Concepts Primer:** `learning/concepts-primer.html` — read for Jaccard similarity, skill normalization, FastAPI, correction loops, and correlation analysis theory
 **PRD Version:** v1
 
 ---
