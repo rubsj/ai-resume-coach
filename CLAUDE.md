@@ -1,6 +1,6 @@
 # CLAUDE.md — P4: AI-Powered Resume Coach
 
-> **Read this file + PRD.md at the start of EVERY session.**
+> **Read this file + docs/PRD.md at the start of EVERY session.**
 > This is your persistent memory across sessions. Update the "Current State" section before ending each session.
 
 ---
@@ -10,8 +10,8 @@
 - **Project:** P4 — AI-Powered Resume Coach: Synthetic Data Pipeline
 - **Location:** `04-resume-coach/` within `ai-portfolio` monorepo
 - **Timeline:** Feb 24–26, 2026 (3 sessions, no hard time cap)
-- **PRD:** `PRD.md` in this directory — the implementation contract
-- **Concepts Primer:** `p4-concepts-primer.html` in project root — read for Jaccard, skill normalization, FastAPI, correction loops
+- **PRD:** `docs/PRD.md` — the implementation contract
+- **Concepts Primer:** `docs/learning/concepts-primer.html` — read for Jaccard, skill normalization, FastAPI, correction loops
 
 ---
 
@@ -36,7 +36,7 @@ This project uses the **Opus-plans, Sonnet-executes** workflow:
 ### Session Workflow
 ```
 1. Switch to Opus
-2. "Read CLAUDE.md and PRD.md. Today is Day [N]. Plan tasks T[X.Y] through T[X.Z]."
+2. "Read CLAUDE.md and docs/PRD.md. Today is Day [N]. Plan tasks T[X.Y] through T[X.Z]."
 3. Opus produces: file-by-file plan, function signatures, key logic, validation criteria
 4. Switch to Sonnet
 5. "Execute the plan. Start with [first file]."
@@ -168,7 +168,7 @@ Content:
 
 ### Starting a session (Opus):
 ```
-Read CLAUDE.md and PRD.md. Today is Day [N].
+Read CLAUDE.md and docs/PRD.md. Today is Day [N].
 Plan tasks T[X.Y] through T[X.Z] from PRD Section 15.
 For each task: specify files to create/modify, function signatures,
 key logic, and validation criteria (how do we know it works?).
@@ -291,7 +291,7 @@ Do NOT re-debate architecture — follow the plan.
 
 ## Key Concepts Quick Reference
 
-(For deep explanation, read `p4-concepts-primer.html`)
+(For deep explanation, read `docs/learning/concepts-primer.html`)
 
 - **Jaccard similarity:** |A ∩ B| / |A ∪ B| — set-based overlap. 0=no overlap, 1=identical sets. Use for skill matching.
 - **Skill normalization:** lowercase → version removal → suffix stripping → alias mapping. Essential for accurate Jaccard.
